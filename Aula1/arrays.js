@@ -1,4 +1,4 @@
-// const estados = new Array('Pernambuco','Rio de Janeiro','Alagoas') <-- construtor de um array, outro metodo de se criar um array
+const estados = new Array('Pernambuco','Rio de Janeiro','Alagoas') // <-- construtor de um array, outro metodo de se criar um array
 
 const nomes = ['Maria','Eduardo', 'Joana'] // Array literal, forma mais comum de se criar um array
 
@@ -17,4 +17,4 @@ nomes.pop() // o ".pop" remove o ultimo elemento
 nomes.shift() // o ".shift" remove o primeiro elemento
 
 
-// delete nomes[2] // deleta o valor do indice retornando um elemento vazio dentro do array
+delete nomes[2] // deleta o valor do indice retornando um elemento vazio dentro do array
